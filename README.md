@@ -116,7 +116,9 @@ Dashboard includes:
 - Seasonal Trends
 - Interactive Filters
 
-> Dashboard screenshots will be added soon.
+## 📊 Dashboard Preview
+
+![Customer Shopping Dashboard](images/dashboard.png)
 
 ---
 
