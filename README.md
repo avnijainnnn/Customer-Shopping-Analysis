@@ -116,9 +116,26 @@ Dashboard includes:
 - Seasonal Trends
 - Interactive Filters
 
-> Dashboard screenshots will be added soon.
+## 📊 Dashboard Preview
+
+![Customer Shopping Dashboard](images/dashboard.png)
 
 ---
+
+## 🎛️ Interactive Dashboard
+
+Users can filter the dashboard by Category, Gender, Season, and Subscription Status. 
+(Shown here: Gender filtered as female)
+
+![Interactive Dashboard](images/dashboard_filtered.png)
+
+---
+
+## 💰 Revenue Analysis
+
+The dashboard provides revenue insights across customer segments and product categories.
+
+![Revenue Analysis](images/revenue_analysis.png)
 
 ## 🚀 Future Improvements
 
