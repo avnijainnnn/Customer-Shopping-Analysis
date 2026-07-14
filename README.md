@@ -122,6 +122,21 @@ Dashboard includes:
 
 ---
 
+## 🎛️ Interactive Dashboard
+
+Users can filter the dashboard by Category, Gender, Season, and Subscription Status. 
+(Shown here: Gender filtered as female)
+
+![Interactive Dashboard](images/dashboard_filtered.png)
+
+---
+
+## 💰 Revenue Analysis
+
+The dashboard provides revenue insights across customer segments and product categories.
+
+![Revenue Analysis](images/revenue_analysis.png)
+
 ## 🚀 Future Improvements
 
 - Machine Learning models
