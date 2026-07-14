@@ -118,7 +118,7 @@ Dashboard includes:
 
 ## 📊 Dashboard Preview
 
-![Customer Shopping Dashboard](images/dashboard.png)
+![Customer Shopping Dashboard](images/dashboard_overview.png)
 
 ---
 
