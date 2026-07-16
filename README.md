@@ -55,18 +55,25 @@ The dataset contains customer shopping information, including:
 
 ## 🔄 Project Workflow
 
-```
-Raw Dataset
-⬇️
+```text
+Raw Customer Shopping Dataset
+            │
+            ▼
 Python Data Cleaning & Feature Engineering
-⬇️
+            │
+            ▼
 MySQL Database
-⬇️
-SQL Business Analysis
-⬇️
-Power BI Dashboard
-⬇️
-Behavior-Based Customer Segmentation
+            │
+            ▼
+Business Analysis using SQL
+            │
+            ▼
+Interactive Power BI Dashboard
+            │
+            ▼
+Machine Learning
+   ├── Customer Segmentation (K-Means)
+   └── Subscription Prediction (Random Forest)
 ```
 
 
@@ -172,28 +179,77 @@ Algorithm Used:
 ## Customer Segments
 
 ![Customer Segmentation](images/customer_segmentation.png)
+
+## 2️⃣ Subscription Prediction
+
+### Models Compared
+
+| Model | Accuracy |
+|--------|---------:|
+| Decision Tree | **79.87%** |
+| Random Forest | **81.67%** |
+
+
+### Final Model
+
+✅ **Random Forest Classifier**
+
+### Model Performance
+
+- Accuracy: **81.67%**
+- Subscriber Recall: **90%**
+- Subscriber F1-Score: **0.74**
+
+![Random Confusion Matrix](images/random_forest_confusion_matrix.png)
+
+### Random Forest Feature Importance
+
+Random Forest outperformed the Decision Tree and was selected as the final model for predicting customer subscription status.
+
+![Random Forest Feature Importance](images/random_forest_feature_importance.png)
+
+![ROC Curve](images/roc_curve.png)
+---
 # 📁 Repository Structure
 
 ```text
 Customer-Shopping-Analysis/
 │
-├── Customer_shopping_analysis.ipynb
+├── Customer_Shopping_Analysis.ipynb
 ├── Customer_Segmentation.ipynb
-├── Customer_shopping_analysis.sql
+├── Subscription_Prediction.ipynb
+├── Customer_Shopping_Analysis.sql
 ├── Customer Shopping Analysis.pbix
 ├── customer_shopping_behavior.csv
-├── README.md
-└── images/
+├── images/
+└── README.md
 ```
+
 
 ---
 
 # 🚀 Future Improvements
 
-- Random Forest Classification for Subscription Prediction
-- Tableau Dashboard
-- Streamlit Web Application
-- Advanced Customer Recommendation System
+- Deploy the project as a Streamlit web application
+- Compare additional clustering algorithms (Hierarchical Clustering, DBSCAN)
+- Use a real-world retail dataset for customer segmentation
+- Build an automated data pipeline for periodic data updates
+- Perform hyperparameter tuning to further improve model performance
+
+
+---
+# 🎯 Key Skills Demonstrated
+
+- Data Cleaning & Preprocessing
+- Exploratory Data Analysis (EDA)
+- SQL Query Writing
+- MySQL Database Management
+- Business Intelligence with Power BI
+- Customer Segmentation
+- Classification Models
+- Model Evaluation
+- Data Visualization
+- Git Version Control
 
 ---
 
